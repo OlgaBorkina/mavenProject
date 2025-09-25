@@ -32,9 +32,10 @@ public class MathUtilsTest {
         assertThrows(ArithmeticException.class, () ->  MathUtils.div(7,0));
     }
 
-//    @Test
-//    public void TestDivError(){
-//       assertEquals(5, MathUtils.div(16, 4));
-//    }
+    // test with error
+    @Test
+    public void TestDivError(){
+       assertEquals(5, MathUtils.div(16, 4));
+    }
 
 }
